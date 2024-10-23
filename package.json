@@ -1,0 +1,30 @@
+{
+  "name": "js-crud-mysql-type-orm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "//" : {
+    "start": "npx tsx services/employee.service.js",
+    "start2": "npx tsx services/addresses.service.js"
+  },
+  "scripts": {
+    "test": "hello world",
+    "start": "npx tsx server.js"
+  },
+  "author": "ttknp",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mysql2": "^3.11.3",
+    "process": "^0.11.10",
+    "typeorm": "^0.3.20",
+    "winston": "^3.15.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
